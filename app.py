@@ -51,5 +51,5 @@ def left(message):
     emit('status', {'msg': username + 'has left the room'}, room=room)
 
 if __name__=='__main__':
-    app.run()
-    # socketio.run(app)
+    # app.run()
+    socketio.run(app)

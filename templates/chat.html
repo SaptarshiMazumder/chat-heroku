@@ -27,6 +27,7 @@
                     text = $('#text').val();
                     $('#text').val('');
                     socket.emit('text', { msg: text });
+                    console.log("HERE")
                 });
             });
             function leave_room() {
